@@ -1,0 +1,48 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+  nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+
+  .background-image{
+    background-image: url(../../../images/darkhome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    width: 100vw;
+    position: relative;
+  }
+
+  .nav-left{
+    cursor: pointer;
+  }
+  .nav-center {
+    ul {
+    display: flex;
+      li {
+        a {
+          padding: 10px;
+          display: inline-block;
+          &:hover {
+            color: orange;
+          }
+        }
+      }
+    }
+  }
+
+
+// MEDIA QUERIE
+@media screen and (max-width: 600px){
+    .nav-center{
+        display: none;
+    }
+
+    .fa-bars{
+        display: block;
+    }
+
+
+}

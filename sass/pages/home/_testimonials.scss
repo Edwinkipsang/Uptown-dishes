@@ -1,0 +1,79 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+.what-abt{
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.wrapper{
+    max-width: 1300px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:1em;
+    margin-top: 2.5em;
+    margin: 0 auto;
+}
+
+.wrapper .box{
+    background-color:transparent;
+    border-radius: 55px;
+    padding: 25px;
+    border: 2px solid orange;
+
+
+}
+
+.wrapper .box .fa-quote-left{
+    font-size: 20px;
+    color:orange;
+}
+
+.wrapper .box .content{
+padding-top:10px ;
+display:flex ;
+align-items: center;
+justify-content: space-between;
+}
+
+.wrapper .box .content .info .name{
+  font-size: 17px;
+  font-weight: 600;  
+}
+
+.wrapper .box .content .info .name{
+    color: orange;
+    font-size: 15px;
+    font-weight: 500;  
+  }
+
+  .wrapper .box .content .info .stars{
+margin-top: 3px;
+
+  }
+
+  .box .info .stars i{
+color: orange;
+
+  }
+
+  .wrapper .box .content .image{
+    height: 65px;
+    width: 65px;
+    padding: 3px;
+    background: orange;
+    border-radius: 50%;
+
+  }
+
+  .box .content .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid orange;
+
+    
+  }
