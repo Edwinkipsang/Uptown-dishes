@@ -7,6 +7,9 @@
     @include flex(space-between, center);
     margin-top: 2em;
     cursor: pointer;
+    border-bottom: 3px solid orange;
+    width: 80%;
+    margin: auto;
 
     li {
         a {
@@ -22,11 +25,12 @@
    .m-dishes{
     text-align: center;
     margin-top: 2em;
+    margin-bottom: 2em;
    }
 
    .for-you{
     display: flex;
-    gap:1em;
+    gap:4em;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -34,9 +38,13 @@
 
     .spacial-box{
         margin-top: 4em;
-    background-color: #F4F7FB;
+    background:rgba(255,255,255,0.5);
     @include flex(center,center,column);
-    border-radius: 25px;
+    border-bottom: 3px solid orange;
+    border-right: 3px solid orange;
+    border-left: 3px solid orange;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
        }
 
        .view-more-btn{
