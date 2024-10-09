@@ -39,10 +39,16 @@ h1 {
   background-image: url(../../images/background\ 1.jpg);
 }
 
+header {
+  background-image: url(../../../images/darkhome.jpg);
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .background-image {
