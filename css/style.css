@@ -69,12 +69,22 @@ nav {
   color: orange;
 }
 
+.nav-right {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.fa-bars {
+  margin-top: -2em;
+}
+
 @media screen and (max-width: 600px) {
   .nav-center {
     display: none;
   }
-  .fa-bars {
-    display: block;
+  .nav-right img {
+    display: none;
   }
 }
 .f-container {
@@ -114,6 +124,23 @@ footer {
   align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+  footer {
+    width: 100%;
+  }
+  .f-flex {
+    gap: 40px;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .f-logo img {
+    display: none;
+  }
+  .ff-icon img {
+    display: none;
+  }
+}
 .view-more-btn-h {
   background-color: transparent;
   padding: 10px;
@@ -149,9 +176,19 @@ footer {
   gap: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  .time-location-out {
+    margin-top: 1em;
+    font-size: 10px;
+  }
+}
 .what-abt {
   text-align: center;
   margin-bottom: 2em;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .wrapper {
@@ -166,7 +203,7 @@ footer {
 }
 
 .wrapper .box {
-  background-color: transparent;
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 55px;
   padding: 25px;
   border: 2px solid orange;
@@ -220,6 +257,18 @@ footer {
   border: 2px solid orange;
 }
 
+@media screen and (max-width: 600px) {
+  .what-abt h3 {
+    font-size: 20px;
+  }
+  .what-abt h3 p {
+    font-size: 3px;
+  }
+  .wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+}
 .Special-menu {
   display: flex;
   justify-content: space-between;
@@ -274,7 +323,7 @@ footer {
   margin-bottom: 2em;
   margin-top: 2em;
   color: white;
-  background-color: transparent;
+  background: black;
   border: 3px solid orange;
   border-radius: 7px;
 }
@@ -296,113 +345,24 @@ h4 {
   margin-top: 10px;
 }
 
-.l-hero-s {
-  height: 100%;
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(../../../images/background\ 1.jpg);
-  background-position: center;
-  background-size: cover;
-  position: absolute;
+@media screen and (max-width: 600px) {
+  .view-more-btn {
+    padding: 10px 40px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .Special-menu {
+    font-size: 6px;
+  }
+  .Special-menu li a:hover {
+    color: orange;
+  }
+  .for-you {
+    width: 100%;
+    flex-direction: column;
+  }
 }
-
-.form-box-s {
-  width: 380px;
-  height: 480px;
-  position: relative;
-  margin: 6% auto;
-  background: rgba(0, 0, 0, 0.7);
-  padding: 5px;
-}
-
-.btn-box-s {
-  width: 220px;
-  margin: 35px auto;
-  position: relative;
-  box-shadow: 0 0 15px 9px orange;
-  border-radius: 60px;
-  text-align: center;
-}
-
-.toggle-btn-s {
-  padding: 10px 25px;
-  cursor: pointer;
-  background: transparent;
-  border: 0;
-  outline: none;
-  position: relative;
-  color: white;
-}
-
-.b-t-n-s {
-  top: 0;
-  left: 0;
-  width: 110px;
-  height: 100%;
-  background: linear-gradient(to right, #ff105f, #ffad06);
-  border-radius: 30px;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-
-.social-icons-l-s {
-  margin: 30px auto;
-  text-align: center;
-}
-
-.social-icons-l-s img {
-  width: 30px;
-  margin: 0 12px;
-  cursor: pointer;
-}
-
-.input-group-s {
-  top: 180px;
-  position: absolute;
-  width: 280px;
-  transition: 0.5s;
-  margin-left: 2em;
-}
-
-.input-field-s {
-  width: 100%;
-  padding: 10px 0;
-  margin: 5px 0;
-  border-left: 0;
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 1px solid orange;
-  outline: none;
-  background-color: transparent;
-}
-
-.submit-btn-s {
-  width: 85%;
-  padding: 10px 30px;
-  cursor: pointer;
-  display: block;
-  margin: auto;
-  background: linear-gradient(to right, #ff105f, #ffad06);
-  border: 0;
-  outline: none;
-  border-radius: 30px;
-}
-
-.check-box-s {
-  margin: 30px 10px 30px 0;
-}
-
-span-s {
-  color: orange;
-  font-size: 12px;
-  bottom: 68px;
-  position: absolute;
-}
-
-.log-in-s {
-  left: 50px;
-}
-
 .l-hero {
   height: 100%;
   width: 100%;
@@ -484,6 +444,7 @@ span-s {
   border-bottom: 1px solid orange;
   outline: none;
   background-color: transparent;
+  color: white;
 }
 
 .submit-btn {
@@ -511,4 +472,118 @@ span-l {
 
 .log-in {
   left: 50px;
+}
+
+.l-hero-s {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(../../../images/background\ 1.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.form-box-s {
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+}
+
+.btn-box-s {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 15px 9px orange;
+  border-radius: 60px;
+  text-align: center;
+}
+
+.toggle-btn-s {
+  padding: 10px 25px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  color: white;
+}
+
+.b-t-n-s {
+  top: 0;
+  left: 0;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.social-icons-l-s {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.social-icons-l-s img {
+  width: 30px;
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.input-group-s {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
+  margin-left: 2em;
+}
+
+.input-field-s {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid orange;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+.submit-btn-s {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+
+.check-box-s {
+  margin: 30px 10px 30px 0;
+}
+
+span-s {
+  color: orange;
+  font-size: 12px;
+  bottom: 68px;
+  position: absolute;
+}
+
+.log-in-s {
+  left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .form-box-s {
+    padding: 2px;
+  }
 }

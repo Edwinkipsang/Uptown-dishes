@@ -33,6 +33,16 @@
     }
   }
 
+  .nav-right{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .fa-bars{
+    margin-top: -2em;
+  }
+
 
 // MEDIA QUERIE
 @media screen and (max-width: 600px){
@@ -40,9 +50,11 @@
         display: none;
     }
 
-    .fa-bars{
-        display: block;
+   .nav-right{
+    img{
+      display: none;
     }
+   }
 
 
 }

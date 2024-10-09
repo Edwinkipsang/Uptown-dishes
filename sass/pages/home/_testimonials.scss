@@ -4,6 +4,7 @@
 .what-abt{
   text-align: center;
   margin-bottom: 2em;
+  background: rgba(0,0,0,0.6);
 }
 
 .wrapper{
@@ -18,7 +19,7 @@
 }
 
 .wrapper .box{
-    background-color:transparent;
+    background: rgba(0,0,0,0.6);
     border-radius: 55px;
     padding: 25px;
     border: 2px solid orange;
@@ -76,4 +77,23 @@ color: orange;
     border: 2px solid orange;
 
     
+  }
+
+
+
+  // MEDIA QUARIES
+  @media screen and (max-width: 600px){
+    .what-abt{
+      h3{
+        font-size: 20px;
+        p{
+          font-size: 3px;
+        }
+      }
+    }
+    
+    .wrapper{
+      width: 100%;
+        flex-direction: column;
+    }
   }
