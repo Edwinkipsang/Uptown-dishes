@@ -3,6 +3,7 @@
   header{
 
     background-image: url("../../../images/darkhome.jpg");
+   
   }
 
 nav {
@@ -34,6 +35,11 @@ nav {
     display: flex;
       li {
         a {
+          text-shadow:
+          0 0 10px black,
+          0 0 20px  black,
+          0 0 40px  black,
+          0 0 80px  black,;
           padding: 10px;
           display: inline-block;
           &:hover {
