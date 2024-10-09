@@ -1,0 +1,53 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.view-more-btn-h{
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 2em;
+    color: orange;
+    cursor: pointer;
+    &hover{
+        color: black;
+        background-color: orange;
+    }
+   
+}
+
+.hero{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.time-location{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.time-location-out{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em; 
+    gap: 20px;  
+}
+
+// MEDIA QUARIES
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 30px;
+    }
+
+    .time-location-out{
+        margin-top: 1em;
+        font-size: 10px;
+    }
+}
+
+
