@@ -8,12 +8,39 @@ ul {
 }
 a {
   text-decoration: none;
+  color: white;
   
 }
 li {
   gap: 20px;
 }
-.container {
-  width: 80%;
-  margin: 0 auto;
+// .container {
+//   width: 80%;
+//   margin: 0 auto;
+
+
+.container{
+ background-color: gray;
+ background-image: url(../../images/pexels-n-voitkevich-5794883.jpg);
 }
+
+p{
+  color: white;
+}
+
+h1{
+  color: white;
+  font-size: 50px;
+}
+
+
+.l-hero{
+background-image: url(../../images/background\ 1.jpg);
+}
+
+.l-hero-s{
+  background-image: url(../../images/background\ 1.jpg);
+  }
+
+
+
