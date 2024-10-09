@@ -72,6 +72,10 @@ nav {
   position: relative;
 }
 
+.container {
+  width: 100%;
+}
+
 .nav-left {
   cursor: pointer;
 }
@@ -93,8 +97,9 @@ nav {
   text-align: center;
 }
 
-.fa-bars {
+#fa-bars {
   margin-top: -2em;
+  display: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -112,6 +117,7 @@ nav {
   align-items: center;
   border-top: 3px solid orange;
   background-color: black;
+  padding: 1px 50px;
 }
 
 .f-list {
@@ -410,6 +416,11 @@ ul li:hover {
 .hr {
   width: 100%;
   margin-left: 2%;
+}
+
+.menu-container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .btn-add {

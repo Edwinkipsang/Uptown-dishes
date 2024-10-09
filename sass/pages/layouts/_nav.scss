@@ -21,6 +21,9 @@ nav {
     width: 100vw;
     position: relative;
   }
+  .container{
+    width:100%
+  }
 
   .nav-left{
     cursor: pointer;
@@ -46,9 +49,15 @@ nav {
     text-align: center;
   }
 
-  .fa-bars{
+  #fa-bars{
     margin-top: -2em;
+
+    display: none;
+
+    display:none
+
   }
+
 
 
 // MEDIA QUERIE
