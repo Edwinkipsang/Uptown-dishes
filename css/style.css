@@ -21,6 +21,161 @@ li {
   margin: 0 auto;
 }
 
+.about-us-container {
+  background-image: url(../../images/patrick-schneider-5xltWMpkN3E-unsplash.jpg);
+}
+
+.menu-container {
+  background-image: url(../../images/patrick-schneider-5xltWMpkN3E-unsplash.jpg);
+}
+
+.contact-container {
+  background-image: url(../../images/pexels-marceloverfe-16743523.jpg);
+}
+
+.menu-content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.dishes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 250px;
+  padding-top: 30px;
+  border-bottom: 3px solid orange;
+}
+
+ul li {
+  cursor: pointer;
+  color: white;
+}
+ul li:hover {
+  color: orange;
+}
+
+.hr {
+  width: 100%;
+  margin-left: 2%;
+}
+
+.btn-add {
+  background: rgba(0, 0, 0, 0.4);
+  color: wheat;
+  border: 2px solid orange;
+  cursor: pointer;
+  padding: 3px 10px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.btn-add:hover {
+  background-color: wheat;
+  color: black;
+  border: 2px solid #000;
+}
+
+.icon {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.fa-star {
+  color: #000;
+  cursor: pointer;
+}
+.fa-star:hover {
+  color: orange;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.about-items {
+  margin-top: 1em;
+}
+
+#paragraph {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+#i {
+  color: orange;
+}
+
+.pr {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.about-section {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+}
+
+#p {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+#all {
+  border-bottom: 3px solid orange;
+  border-left: 3px solid orange;
+  border-right: 3px solid orange;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+@media screen and (max-width: 600px) {
+  #all {
+    width: 227.5px;
+    flex-direction: column;
+  }
+  .about-content {
+    width: 100%;
+    flex-direction: column;
+  }
+  .dishes {
+    font-size: 10px;
+    gap: 25px;
+  }
+  .header {
+    font-size: 20px;
+  }
+  #paragraph {
+    font-size: 13px;
+  }
+}
 .about-main {
   display: flex;
   align-items: center;
