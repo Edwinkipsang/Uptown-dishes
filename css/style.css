@@ -18,7 +18,6 @@ li {
 }
 
 .container {
-  background-color: gray;
   background-image: url(../../images/pexels-n-voitkevich-5794883.jpg);
 }
 
@@ -99,6 +98,7 @@ nav {
 
 #fa-bars {
   margin-top: -2em;
+  display: none;
   display: none;
 }
 
