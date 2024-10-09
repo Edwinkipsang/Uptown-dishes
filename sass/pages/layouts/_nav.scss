@@ -2,7 +2,7 @@
 @use "../../utilities/variables" as *;
   header{
 
-    background-image: url(../../../images/darkhome.jpg);
+    background-image: url("../../../images/darkhome.jpg");
   }
 
 nav {
@@ -14,7 +14,8 @@ nav {
   }
 
   .background-image{
-    background-image: url(../../../images/darkhome.jpg);
+    background-image: url("../../../images/darkhome.jpg");
+    background-image: ("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/darkhome.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vh;
