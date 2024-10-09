@@ -99,6 +99,7 @@ nav {
 
 .fa-bars {
   margin-top: -2em;
+  display: none;
 }
 
 @media screen and (max-width: 600px) {
