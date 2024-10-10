@@ -57,7 +57,12 @@ h1 {
 }
 
 header {
+
+  background-image: url(../../../images/darkhome.jpg);
+  background-image: url("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/darkhome.jpg?raw=true");
+
   background-image: url("../../../images/darkhome.jpg");
+
 }
 
 nav {
