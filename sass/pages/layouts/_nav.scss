@@ -2,8 +2,12 @@
 @use "../../utilities/variables" as *;
   header{
 
+
     background-image: url(../../../images/darkhome.jpg);
     background-image: url("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/darkhome.jpg?raw=true");
+
+    background-image: url("../../../images/darkhome.jpg");
+   
   }
 
 nav {
@@ -15,7 +19,8 @@ nav {
   }
 
   .background-image{
-    background-image: url(../../../images/darkhome.jpg);
+    background-image: url("../../../images/darkhome.jpg");
+    background-image: ("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/darkhome.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vh;
@@ -34,6 +39,11 @@ nav {
     display: flex;
       li {
         a {
+          text-shadow:
+          0 0 10px black,
+          0 0 20px  black,
+          0 0 40px  black,
+          0 0 80px  black,;
           padding: 10px;
           display: inline-block;
           &:hover {

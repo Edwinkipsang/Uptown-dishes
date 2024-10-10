@@ -18,20 +18,23 @@ li {
 }
 
 .container {
-  background-color: gray;
-  background-image: url(../../images/pexels-n-voitkevich-5794883.jpg);
+  background-image: url("../../images/pexels-n-voitkevich-5794883.jpg");
+  background-image: url("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/pexels-n-voitkevich-5794883.jpg?raw=true");
 }
 
 .about-us-container {
-  background-image: url(../../images/patrick-schneider-5xltWMpkN3E-unsplash.jpg);
+  background-image: url("../../images/patrick-schneider-5xltWMpkN3E-unsplash.jpg");
+  background-image: url("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/patrick-schneider-5xltWMpkN3E-unsplash.jpg?raw=true");
 }
 
 .menu-container {
-  background-image: url(../../images/patrick-schneider-5xltWMpkN3E-unsplash.jpg);
+  background-image: url("../../images/patrick-schneider-5xltWMpkN3E-unsplash.jpg");
+  background-image: url("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/patrick-schneider-5xltWMpkN3E-unsplash.jpg?raw=true");
 }
 
 .contact-container {
-  background-image: url(../../images/pexels-marceloverfe-16743523.jpg);
+  background-image: url("../../images/pexels-marceloverfe-16743523.jpg");
+  background-image: url("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/pexels-marceloverfe-16743523.jpg?raw=true");
 }
 
 p {
@@ -44,16 +47,22 @@ h1 {
 }
 
 .l-hero {
-  background-image: url(../../images/background\ 1.jpg);
+  background-image: url("../../images/background 1.jpg");
+  background-image: url("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/background%201.jpg?raw=true");
 }
 
 .l-hero-s {
-  background-image: url(../../images/background\ 1.jpg);
+  background-image: url("../../images/background 1.jpg");
+  background-image: url("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/background%201.jpg?raw=true");
 }
 
 header {
+
   background-image: url(../../../images/darkhome.jpg);
   background-image: url("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/darkhome.jpg?raw=true");
+
+  background-image: url("../../../images/darkhome.jpg");
+
 }
 
 nav {
@@ -65,7 +74,8 @@ nav {
 }
 
 .background-image {
-  background-image: url(../../../images/darkhome.jpg);
+  background-image: url("../../../images/darkhome.jpg");
+  background-image: "https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/darkhome.jpg?raw=true";
   background-repeat: no-repeat;
   background-size: cover;
   height: 45vh;
@@ -85,6 +95,7 @@ nav {
   display: flex;
 }
 .nav-center ul li a {
+  text-shadow: 0 0 10px black, 0 0 20px black, 0 0 40px black, 0 0 80px black;
   padding: 10px;
   display: inline-block;
 }
@@ -327,6 +338,10 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
+  cursor: pointer;
+}
+.for-you :hover {
+  transform: translate(0, -10%);
 }
 
 .spacial-box {
@@ -462,6 +477,9 @@ ul li:hover {
   flex-direction: row;
   flex-wrap: nowrap;
 }
+.about-content :hover {
+  transform: translate(0, -10%);
+}
 
 .about-items {
   margin-top: 1em;
@@ -515,6 +533,7 @@ ul li:hover {
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
@@ -848,7 +867,8 @@ ul li:hover {
 .l-hero {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(../../../images/background\ 1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../../../images/background 1.jpg");
+  background-image: url("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/background%201.jpg?raw=true");
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -959,7 +979,8 @@ span-l {
 .l-hero-s {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(../../../images/background\ 1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../../../images/background 1.jpg");
+  background-image: url("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/background%201.jpg?raw=true");
   background-position: center;
   background-size: cover;
   position: absolute;
